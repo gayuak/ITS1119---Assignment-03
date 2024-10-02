@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .outer {
+    width: 200px;
+    height: 200px;
+    border: 15px solid gray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    z-index: 1;
+  }
+  .inner {
+    width: 180px;
+    height: 180px;
+    border: 15px solid red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+  }
+  
+  .page {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  #hello,
+  #welcome,
+  #ijse {
+    margin: 0;
+    width: 184px;
+    height: 184px;
+    border-radius: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+  }
+  #hello {
+    background-color: blueviolet;
+  }
+  
+  #welcome {
+    background-color: lightseagreen;
+  }
+  
+  #ijse {
+    background-color: coral;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+  }
